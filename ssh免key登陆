@@ -28,9 +28,9 @@ The key's randomart image is:
 |...ooE.   oo.    |
 +----[SHA256]-----+
 
-将创建好的id，位置在~/.ssh/id_rsa.pub中的文件复制到目标服务器~/.ssh/authorized_keys文件中。
+将创建好的密钥文件，位置在~/.ssh/id_rsa.pub中的文件复制到目标服务器~/.ssh/authorized_keys文件中。
 
-#step 2 配置ssh服务
+#step 2 配置目标服务器ssh服务
 
 PasswordAuthentication no #关闭密码登陆
 GSSAPIAuthentication yes
